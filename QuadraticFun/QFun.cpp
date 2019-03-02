@@ -93,7 +93,7 @@ void QFun::print() {
     Zero * zero;
     zero = firstZero;
     while ( zero ){
-        std::cout << std::fixed << std::setprecision(2) << zero ->value << "   ";
+        std::cout << std::fixed << std::setprecision(4) << zero ->value << "   ";
         zero = zero ->next;
     }
     std::cout << std::endl;
